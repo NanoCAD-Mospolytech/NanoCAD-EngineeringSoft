@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flange_Create", "test_NanoCad_3D\Flange_Create.csproj", "{46E5C226-9932-4C19-A11E-71D87A25FD25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46E5C226-9932-4C19-A11E-71D87A25FD25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E5C226-9932-4C19-A11E-71D87A25FD25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E5C226-9932-4C19-A11E-71D87A25FD25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E5C226-9932-4C19-A11E-71D87A25FD25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFB2DD3D-0495-487E-93B8-BCF84F5C82F8}
+	EndGlobalSection
+EndGlobal

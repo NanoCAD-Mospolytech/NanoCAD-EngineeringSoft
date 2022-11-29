@@ -1,0 +1,24 @@
+C:\Users\alibe\source\repos\test_NanoCad_3D\test_NanoCad_3D\bin\Debug\test_NanoCad_3D.dll
+C:\Users\alibe\source\repos\test_NanoCad_3D\test_NanoCad_3D\bin\Debug\test_NanoCad_3D.pdb
+C:\Users\alibe\source\repos\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.csproj.AssemblyReference.cache
+C:\Users\alibe\source\repos\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.csproj.CoreCompileInputs.cache
+C:\Users\alibe\source\repos\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.dll
+C:\Users\alibe\source\repos\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.pdb
+C:\Users\alibe\source\repos\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.Form1.resources
+C:\Users\alibe\source\repos\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.csproj.GenerateResource.cache
+C:\Users\alibe\source\repos\NANO_Tests\test_NanoCad_3D\test_NanoCad_3D\bin\Debug\test_NanoCad_3D.dll
+C:\Users\alibe\source\repos\NANO_Tests\test_NanoCad_3D\test_NanoCad_3D\bin\Debug\test_NanoCad_3D.pdb
+C:\Users\alibe\source\repos\NANO_Tests\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.csproj.AssemblyReference.cache
+C:\Users\alibe\source\repos\NANO_Tests\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.Form1.resources
+C:\Users\alibe\source\repos\NANO_Tests\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.csproj.GenerateResource.cache
+C:\Users\alibe\source\repos\NANO_Tests\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.csproj.CoreCompileInputs.cache
+C:\Users\alibe\source\repos\NANO_Tests\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.dll
+C:\Users\alibe\source\repos\NANO_Tests\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.pdb
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\bin\Debug\test_NanoCad_3D.dll
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\bin\Debug\test_NanoCad_3D.pdb
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.csproj.AssemblyReference.cache
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.Form1.resources
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.csproj.GenerateResource.cache
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.csproj.CoreCompileInputs.cache
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.dll
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.pdb

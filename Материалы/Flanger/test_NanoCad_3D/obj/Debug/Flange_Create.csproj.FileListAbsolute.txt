@@ -1,0 +1,8 @@
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\bin\Debug\test_NanoCad_3D.dll
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\bin\Debug\test_NanoCad_3D.pdb
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\Flange_Create.csproj.AssemblyReference.cache
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.Form1.resources
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\Flange_Create.csproj.GenerateResource.cache
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\Flange_Create.csproj.CoreCompileInputs.cache
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.dll
+C:\Users\h04m1\OneDrive\Рабочий стол\test_NanoCad_3D\test_NanoCad_3D\obj\Debug\test_NanoCad_3D.pdb
