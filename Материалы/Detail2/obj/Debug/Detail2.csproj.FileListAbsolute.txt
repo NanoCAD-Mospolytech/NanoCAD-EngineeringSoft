@@ -1,0 +1,9 @@
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\GitHub\NanoCAD-IngeneringSoft\Материалы\Detail2\obj\Debug\Detail2.csproj.AssemblyReference.cache
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\GitHub\NanoCAD-IngeneringSoft\Материалы\Detail2\obj\Debug\Interop.nanoCAD.dll
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\GitHub\NanoCAD-IngeneringSoft\Материалы\Detail2\obj\Debug\Interop.OdaX.dll
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\GitHub\NanoCAD-IngeneringSoft\Материалы\Detail2\obj\Debug\Detail2.csproj.ResolveComReference.cache
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\GitHub\NanoCAD-IngeneringSoft\Материалы\Detail2\obj\Debug\Detail2.csproj.CoreCompileInputs.cache
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\GitHub\NanoCAD-IngeneringSoft\Материалы\Detail2\obj\Debug\Detail2.dll
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\GitHub\NanoCAD-IngeneringSoft\Материалы\Detail2\obj\Debug\Detail2.pdb
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\GitHub\NanoCAD-IngeneringSoft\Материалы\Detail2\bin\Debug\Detail2.dll
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\GitHub\NanoCAD-IngeneringSoft\Материалы\Detail2\bin\Debug\Detail2.pdb
