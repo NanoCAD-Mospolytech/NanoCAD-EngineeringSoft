@@ -24,7 +24,13 @@
 
 ## Участие в проектах
 1. Фланец
-![]()
+
+Чертеж:
+![](Img_Vdovin/%D0%92%D0%B4%D0%BE%D0%B2%D0%B8%D0%BD-%D0%A7%D0%B5%D1%80%D1%82%D0%B5%D0%B6.jpg)
+
+Результат:
+![](Img_Vdovin/%D0%92%D0%B4%D0%BE%D0%B2%D0%B8%D0%BD1.png)
+![](Img_Vdovin/%D0%92%D0%B4%D0%BE%D0%B2%D0%B8%D0%BD2.png)
 
 Файл с кодом примера:[ Flanger](https://github.com/NanoCAD-Mospolytech/NanoCAD-IngeneringSoft/tree/main/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/Flanger)
 
