@@ -1,0 +1,6 @@
+C:\Users\Qwerty\Desktop\ПД\pdDetail2\pdDetail2\bin\Debug\pdDetail2.dll
+C:\Users\Qwerty\Desktop\ПД\pdDetail2\pdDetail2\bin\Debug\pdDetail2.pdb
+C:\Users\Qwerty\Desktop\ПД\pdDetail2\pdDetail2\obj\Debug\pdDetail2.csproj.AssemblyReference.cache
+C:\Users\Qwerty\Desktop\ПД\pdDetail2\pdDetail2\obj\Debug\pdDetail2.csproj.CoreCompileInputs.cache
+C:\Users\Qwerty\Desktop\ПД\pdDetail2\pdDetail2\obj\Debug\pdDetail2.dll
+C:\Users\Qwerty\Desktop\ПД\pdDetail2\pdDetail2\obj\Debug\pdDetail2.pdb
