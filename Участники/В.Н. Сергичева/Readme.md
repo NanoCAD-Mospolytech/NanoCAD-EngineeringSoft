@@ -26,12 +26,13 @@
 2. Файлы SDKNanoCAD
 
 ## Участие в проектах
-1. Detail2
+
+1. Detail2<br>
 ![](Img_Sergicheva/%D0%A1%D0%B5%D1%80%D0%B3%D0%B8%D1%87%D0%B5%D0%B2%D0%B0.jpg)
 
 Файл с кодом примера:[ Detail2](https://github.com/NanoCAD-Mospolytech/NanoCAD-IngeneringSoft/tree/main/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/Detail2)
 
-2. Вал
+2. Вал<br>
 ![](Img_Sergicheva/%D0%A1%D0%B5%D1%80%D0%B3%D0%B8%D1%87%D0%B5%D0%B2%D0%B0-Shaft.jpg)
 
 Файл с кодом примера:[ Shaft](https://github.com/NanoCAD-Mospolytech/NanoCAD-IngeneringSoft/tree/main/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/Shaft)
