@@ -24,14 +24,12 @@
 ## Участие в проектах
 1. Деталь 3
 
-Результат:
 ![](Img_Polyakova/%D0%9F%D0%BE%D0%BB%D1%8F%D0%BA%D0%BE%D0%B2%D0%B0.jpg)
 
 Файл с кодом примера:[ Detail3](https://github.com/NanoCAD-Mospolytech/NanoCAD-IngeneringSoft/tree/main/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/Detail3)
 
 2. Вал 2
 
-Результат:
 ![](Img_Polyakova/%D0%9F%D0%BE%D0%BB%D1%8F%D0%BA%D0%BE%D0%B2%D0%B02.jpg)
 
 Файл с кодом примера:[ Shaft2](https://github.com/NanoCAD-Mospolytech/NanoCAD-IngeneringSoft/tree/main/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/Shaft2)
