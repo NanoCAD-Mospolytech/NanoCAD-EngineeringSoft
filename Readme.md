@@ -38,4 +38,7 @@ NanoCAD – это российская платформа для проекти
 ### MultiCAD .NET 6.0
 1. [Скругления и фаски](https://github.com/NanoCAD-Mospolytech/NanoCAD-IngeneringSoft/tree/main/Материалы/ClassLibrary1)
 
-
+## Медиа проекта
+- [Дискорд-канал направления](https://discord.gg/DTGjytnXBT)
+- [Группа Вконтакте](https://vk.com/club212533937)
+- [Rutube-канал](https://rutube.ru/plst/239509/)
