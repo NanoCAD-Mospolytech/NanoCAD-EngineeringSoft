@@ -42,3 +42,7 @@ NanoCAD – это российская платформа для проекти
 - [Дискорд-канал направления](https://discord.gg/DTGjytnXBT)
 - [Группа Вконтакте](https://vk.com/club212533937)
 - [Rutube-канал](https://rutube.ru/plst/239509/)
+
+## Другие подпроекты
+- [Kompas-3D](https://github.com/Kompas-Mospolytech/Kompas-ingeneringSoft)
+- [Метод конечных элементов](https://github.com/EngineeringSoft-Mospolytech/Mathematics-for-engineers)
