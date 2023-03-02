@@ -36,6 +36,6 @@ NanoCAD – это российская платформа для проекти
 8. [Фланец](https://github.com/NanoCAD-Mospolytech/NanoCAD-IngeneringSoft/tree/main/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/Flanger)
 
 ### MultiCAD .NET 6.0
-1. Тут новую деталь добавить (назвать "Скругления и фаски")
+1. [Скругления и фаски](https://github.com/NanoCAD-Mospolytech/NanoCAD-IngeneringSoft/tree/main/Материалы/ClassLibrary1)
 
 
