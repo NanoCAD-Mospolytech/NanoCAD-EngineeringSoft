@@ -45,4 +45,4 @@ NanoCAD – это российская платформа для проекти
 
 ## Другие подпроекты
 - [Kompas-3D](https://github.com/Kompas-Mospolytech/Kompas-ingeneringSoft)
-- [Метод конечных элементов](https://github.com/EngineeringSoft-Mospolytech/Mathematics-for-engineers)
+- [Математика для инженеров](https://github.com/EngineeringSoft-Mospolytech/Mathematics-for-engineers)
