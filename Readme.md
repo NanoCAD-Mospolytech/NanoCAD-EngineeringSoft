@@ -22,11 +22,6 @@ NanoCAD – это российская платформа для проекти
 ### 3 курс
 1. [Фомина Ангелина 211-324](https://github.com/NanoCAD-Mospolytech/NanoCAD-IngeneringSoft/tree/main/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D0%B8/%D0%90.%D0%AE.%20%D0%A4%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0)
 
-### 4 курс
-1. [Пересторонин Аким 201-323](https://github.com/NanoCAD-Mospolytech/NanoCAD-IngeneringSoft/tree/main/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D0%B8/%D0%90.%D0%9C.%20%D0%9F%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%B8%D0%BD)
-2. [Трушин Владислав 201-323](https://github.com/NanoCAD-Mospolytech/NanoCAD-IngeneringSoft/tree/main/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D0%B8/%D0%92.%D0%90.%20%D0%A2%D1%80%D1%83%D1%88%D0%B8%D0%BD)
-
-
 ## Наши разработки
 ### MultiCAD .NET Framework
 1. [Деталь 1](https://github.com/NanoCAD-Mospolytech/NanoCAD-IngeneringSoft/tree/main/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/Detail1)
