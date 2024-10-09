@@ -1,6 +1,0 @@
-C:\Users\Qwerty\source\repos\detail1\detail1\bin\Debug\detail1.dll
-C:\Users\Qwerty\source\repos\detail1\detail1\bin\Debug\detail1.pdb
-C:\Users\Qwerty\source\repos\detail1\detail1\obj\Debug\detail1.csproj.AssemblyReference.cache
-C:\Users\Qwerty\source\repos\detail1\detail1\obj\Debug\detail1.csproj.CoreCompileInputs.cache
-C:\Users\Qwerty\source\repos\detail1\detail1\obj\Debug\detail1.dll
-C:\Users\Qwerty\source\repos\detail1\detail1\obj\Debug\detail1.pdb
