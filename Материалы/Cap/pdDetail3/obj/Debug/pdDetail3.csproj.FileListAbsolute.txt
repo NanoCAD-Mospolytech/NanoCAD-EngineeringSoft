@@ -1,6 +1,0 @@
-C:\Users\Qwerty\Desktop\ПД\pdDetail3\pdDetail3\bin\Debug\pdDetail3.dll
-C:\Users\Qwerty\Desktop\ПД\pdDetail3\pdDetail3\bin\Debug\pdDetail3.pdb
-C:\Users\Qwerty\Desktop\ПД\pdDetail3\pdDetail3\obj\Debug\pdDetail3.csproj.AssemblyReference.cache
-C:\Users\Qwerty\Desktop\ПД\pdDetail3\pdDetail3\obj\Debug\pdDetail3.csproj.CoreCompileInputs.cache
-C:\Users\Qwerty\Desktop\ПД\pdDetail3\pdDetail3\obj\Debug\pdDetail3.dll
-C:\Users\Qwerty\Desktop\ПД\pdDetail3\pdDetail3\obj\Debug\pdDetail3.pdb
