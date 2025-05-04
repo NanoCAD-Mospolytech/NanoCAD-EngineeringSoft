@@ -45,8 +45,6 @@ namespace Detail2
                 Radius = 10,
             };
 
-
-
             po.DbEntity.AddToCurrentDocument();
             circle01.DbEntity.AddToCurrentDocument();
             circle02.DbEntity.AddToCurrentDocument();
@@ -62,7 +60,7 @@ namespace Detail2
                 EF1.ProfileID = profile1.ID;
                 EF1.Distance = 20;
                 EF1.Angle = 0;
-                EF1.Operation = PartFeatureOperation.Join;
+                EF1.PartOperation = PartFeatureOperation.Join;
                 EF1.Direction = FeatureExtentDirection.Positive;
                 McObjectManager.UpdateAll();
             }
@@ -95,25 +93,19 @@ namespace Detail2
                 30,
                 0,
                 FeatureExtentDirection.Positive);
-            EF2.Operation = PartFeatureOperation.Join;
+            EF2.PartOperation = PartFeatureOperation.Join;
             McObjectManager.UpdateAll();
-
-
-
 
             // добавление усеченной пирамиды
             PlanarSketch sketchDetail3 = Detail3d.AddPlanarSketch();
 
             DbPolyline po2 = new Polyline3d(new List<Point3d>() { new Point3d(20, 20, 50), new Point3d(60, 20, 50), new Point3d(60, 60, 50), new Point3d(20, 60, 50), new Point3d(20, 20, 50) });
 
-
-
             // получаем конечные грани выдавливания
             // в нашем построении это всегда одна грань, в общем случае их там может быть много
             List<McObjectId> endFacesIds1 = EF2.GetEndFEV(EntityGeomType.kSurfaceEntities);
             sketchDetail3.PlanarEntityID = endFacesIds1[0];
             sketchDetail3.DbEntity.Visibility = 0;
-
 
             po2.DbEntity.AddToCurrentDocument();
             sketchDetail3.AddObject(po2.ID);
@@ -128,9 +120,8 @@ namespace Detail2
                 15,
                 15 / 180.0 * Math.PI,
                 FeatureExtentDirection.Positive);
-            EF3.Operation = PartFeatureOperation.Join;
+            EF3.PartOperation = PartFeatureOperation.Join;
             McObjectManager.UpdateAll();
-
 
             // добавление отверстия
             PlanarSketch sketchDetail4 = Detail3d.AddPlanarSketch();
@@ -160,10 +151,8 @@ namespace Detail2
                 65,
                 0,
                 FeatureExtentDirection.Negative);
-            EF4.Operation = PartFeatureOperation.Cut;
+            EF4.PartOperation = PartFeatureOperation.Cut;
             McObjectManager.UpdateAll();
-
-
         }
     }
 }
