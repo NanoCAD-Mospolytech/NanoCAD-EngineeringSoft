@@ -71,7 +71,7 @@ namespace detail3
                 EF1.ProfileID = profile1.ID;
                 EF1.Distance = 20;
                 EF1.Angle = 0;
-                EF1.Operation = PartFeatureOperation.Join;
+                EF1.PartOperation = PartFeatureOperation.Join;
                 EF1.Direction = FeatureExtentDirection.Positive;
                 McObjectManager.UpdateAll();
             }
@@ -109,7 +109,7 @@ namespace detail3
                 60,
                 0,
                 FeatureExtentDirection.Positive);
-            EF2.Operation = PartFeatureOperation.Join;
+            EF2.PartOperation = PartFeatureOperation.Join;
             McObjectManager.UpdateAll();
 
             //добавляем прямоугольное отверстие
@@ -132,7 +132,7 @@ namespace detail3
             SketchProfile profile3 = sketchDetail3.CreateProfile();
             profile3.AutoProcessExternalContours();
             ExtrudeFeature EF3 = Detail3d.AddExtrudeFeature(profile3.ID, 10, 0, FeatureExtentDirection.Positive);
-            EF3.Operation = PartFeatureOperation.Cut;
+            EF3.PartOperation = PartFeatureOperation.Cut;
 
             sketchDetail3.SetPlane(ps1_plane);
             McObjectManager.UpdateAll();
