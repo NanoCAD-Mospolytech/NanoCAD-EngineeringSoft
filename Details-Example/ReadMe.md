@@ -8,7 +8,7 @@
 ![](Img-Detail/%D0%A1%D0%BC%D0%B8%D1%80%D0%BD%D0%BE%D0%B21.jpg)
 ![](%D0%A1%D0%BC%D0%B8%D1%80%D0%BD%D0%BE%D0%B22.jpg)
 
-Файл с кодом примера: [Detail1](https://github.com/NanoCAD-Mospolytech/NanoCAD-IngeneringSoft/tree/main/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/Detail1)
+Файл с кодом примера: [Detail1](Details-Example/Detail1)
 
 
 ## Деталь 2 <br>
