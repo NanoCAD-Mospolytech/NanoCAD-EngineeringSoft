@@ -78,7 +78,7 @@ namespace Cap
             SketchProfile profile2 = sketch2.CreateProfile();
             profile2.AutoProcessExternalContours();
             ExtrudeFeature EF5 = solid.AddExtrudeFeature(profile2.ID, 20, 0, FeatureExtentDirection.Positive);
-            EF5.Operation = PartFeatureOperation.Cut;
+            EF5.PartOperation = PartFeatureOperation.Cut;
             sketch2.SetPlane(ps1_plane);
             McObjectManager.UpdateAll();
 
@@ -98,7 +98,7 @@ namespace Cap
             SketchProfile profile3 = sketch3.CreateProfile();
             profile3.AutoProcessExternalContours();
             ExtrudeFeature EF1 = solid.AddExtrudeFeature(profile3.ID, 25, 0, FeatureExtentDirection.Positive);
-            EF1.Operation = PartFeatureOperation.Cut;
+            EF1.PartOperation = PartFeatureOperation.Cut;
 
             CircularPatternFeature circArray = solid.AddCircularPatternFeature(new McObjectId[] { EF1.ID }, axisGP, 6, 1.0471975423);
             circArray.DbEntity.AddToCurrentDocument();
