@@ -15,8 +15,6 @@ namespace cube
     [ContainsCommands]
     public class Shaft3D
     {
-        //shaft - вал (не знаем перевод, идем в переводчик)
-
         [CommandMethod("shaft_3d", CommandFlags.NoCheck | CommandFlags.NoPrefix)]
         public static void Shaft()
         {
@@ -33,8 +31,6 @@ namespace cube
             Shaft.DbEntity.AddToCurrentDocument(); // в документ все объекты желательно добавлять сразу после создания
             PlanarSketch sketchDetail = Shaft.AddPlanarSketch(); // создаём эскиз для контура первого выдавливания
 
-
-
             //добавляем цилиндр1
             //добавляем окружность с центром (0,0,0) и радиусом 40
             DbCircle circle1 = new DbCircle()
@@ -46,7 +42,6 @@ namespace cube
             circle1.DbEntity.AddToCurrentDocument();
             sketchDetail.AddObject(circle1.ID);
 
-
             SketchProfile profile1 = sketchDetail.CreateProfile();
             if (profile1 != null)
             {
@@ -54,7 +49,7 @@ namespace cube
                 EF1.ProfileID = profile1.ID;
                 EF1.Distance = 40;
                 EF1.Angle = 0;
-                EF1.Operation = PartFeatureOperation.Join;
+                EF1.PartOperation = PartFeatureOperation.Join;
                 EF1.Direction = FeatureExtentDirection.Positive;
                 McObjectManager.UpdateAll();
             }
@@ -67,7 +62,6 @@ namespace cube
                 Center = new Point3d(0, 0, 40),
                 Radius = 30,
             };
-
 
             List<McObjectId> endFacesIds1 = EF1.GetEndFEV(EntityGeomType.kSurfaceEntities);
             sketchDetail2.PlanarEntityID = endFacesIds1[0];
@@ -84,7 +78,7 @@ namespace cube
                 50,
                 0,
                 FeatureExtentDirection.Positive);
-            EF2.Operation = PartFeatureOperation.Join;
+            EF2.PartOperation = PartFeatureOperation.Join;
             McObjectManager.UpdateAll();
 
             //добавление цилиндра 3
@@ -102,7 +96,6 @@ namespace cube
             sketchDetail3.PlanarEntityID = endFacesIds2[0];
             sketchDetail3.DbEntity.Visibility = 0;
 
-
             circle3.DbEntity.AddToCurrentDocument();
             sketchDetail3.AddObject(circle3.ID);
 
@@ -114,7 +107,7 @@ namespace cube
                 25,
                 0,
                 FeatureExtentDirection.Positive);
-            EF3.Operation = PartFeatureOperation.Join;
+            EF3.PartOperation = PartFeatureOperation.Join;
             McObjectManager.UpdateAll();
 
             //добавление отверстия
@@ -132,7 +125,6 @@ namespace cube
             sketchDetail4.PlanarEntityID = endFacesIds3[0];
             sketchDetail4.DbEntity.Visibility = 0;
 
-
             circle4.DbEntity.AddToCurrentDocument();
             sketchDetail4.AddObject(circle4.ID);
 
@@ -144,7 +136,7 @@ namespace cube
                 115,
                 0,
                 FeatureExtentDirection.Negative);
-            EF4.Operation = PartFeatureOperation.Cut;
+            EF4.PartOperation = PartFeatureOperation.Cut;
             McObjectManager.UpdateAll();
 
             // добавление второго отверстия
@@ -167,12 +159,10 @@ namespace cube
             profile5.AutoProcessExternalContours();
 
             ExtrudeFeature EF5 = Shaft.AddExtrudeFeature(profile5.ID, 100, 0, FeatureExtentDirection.Symmetric);
-            EF5.Operation = PartFeatureOperation.Cut;
+            EF5.PartOperation = PartFeatureOperation.Cut;
 
             sketchDetail5.SetPlane(ps1_plane);
             McObjectManager.UpdateAll();
-
         }
-
     }
 }
