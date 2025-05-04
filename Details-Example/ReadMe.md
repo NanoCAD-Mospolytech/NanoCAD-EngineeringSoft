@@ -8,7 +8,7 @@
 ![](Img-Detail/%D0%A1%D0%BC%D0%B8%D1%80%D0%BD%D0%BE%D0%B21.jpg)
 ![](%D0%A1%D0%BC%D0%B8%D1%80%D0%BD%D0%BE%D0%B22.jpg)
 
-Файл с кодом примера: [Detail1](/Detail1)
+Файл с кодом примера: [Detail1](./Detail1)
 
 
 ## Деталь 2 <br>
