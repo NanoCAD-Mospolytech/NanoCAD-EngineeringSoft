@@ -1,23 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Multicad;
-using Multicad.Runtime;
+﻿using Multicad.Runtime;
 using Multicad.DatabaseServices;
 using Multicad.DatabaseServices.StandardObjects;
 using Multicad.Geometry;
 using Multicad.Mc3D;
-using System.Security.Cryptography;
 
 namespace Shaft2
 {
     [ContainsCommands]
     public class Shaft2
     {
-
-
         [CommandMethod("Val", CommandFlags.NoCheck | CommandFlags.NoPrefix)]
         public static void Sample3d()
         {
@@ -51,8 +42,6 @@ namespace Shaft2
                 RevolveFeature revolve = solid.AddRevolveFeature(profile.ID, axisGP, 2 * Math.PI);
             }
 
-
-
             //создаем 2 цилиндр
             DbPolyline rect2 = new DbPolyline() { Polyline = new Polyline3d(new List<Point3d>() { new Point3d(200, 0, 0), new Point3d(400, 0, 0), new Point3d(400, 250, 0), new Point3d(200, 250, 0), new Point3d(200, 0, 0) }) };
             rect2.DbEntity.AddToCurrentDocument(); //добавление к текущему документу
@@ -61,8 +50,6 @@ namespace Shaft2
             SketchProfile profile2 = sketch2.CreateProfile();
             profile2.AutoProcessExternalContours();
             RevolveFeature revolve2 = solid.AddRevolveFeature(profile2.ID, axisGP, 2 * Math.PI);
-
-
 
             //создаем 3 цилиндр
             Polyline3d poly2 = new Polyline3d(new List<Point3d>() {
@@ -83,8 +70,6 @@ namespace Shaft2
             profile3.AutoProcessExternalContours();
             RevolveFeature revolve3 = solid.AddRevolveFeature(profile3.ID, axisGP, 2 * Math.PI);
 
-
-
             //добавляем отверстие
             PlanarSketch sketch4 = solid.AddPlanarSketch();
             DbCircle circle4 = new DbCircle()
@@ -101,10 +86,8 @@ namespace Shaft2
                 400,
                 0,
                 FeatureExtentDirection.Symmetric);
-            EF4.Operation = PartFeatureOperation.Cut;
+            EF4.PartOperation = PartFeatureOperation.Cut;
             McObjectManager.UpdateAll();
-
-
 
             //добавляем отверстие
             PlanarSketch sketch5 = solid.AddPlanarSketch();
@@ -124,13 +107,9 @@ namespace Shaft2
             SketchProfile profile5 = sketch5.CreateProfile();
             profile5.AutoProcessExternalContours();
             ExtrudeFeature EF5 = solid.AddExtrudeFeature(profile5.ID, 600, 0, FeatureExtentDirection.Positive);
-            EF5.Operation = PartFeatureOperation.Cut;
+            EF5.PartOperation = PartFeatureOperation.Cut;
             sketch5.SetPlane(ps1_plane);
             McObjectManager.UpdateAll();
         }
-
-
     }
-
-
 }
