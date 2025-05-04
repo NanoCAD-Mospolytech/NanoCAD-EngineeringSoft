@@ -18,11 +18,9 @@ namespace Detail1
         [CommandMethod("detail1_3d", CommandFlags.NoCheck | CommandFlags.NoPrefix)]
         public static void Sample3d()
         {
-
             var activeSheet = McDocumentsManager.GetActiveSheet();
 
             Mc3dSolid Detail3d = new Mc3dSolid();
-
 
             ExtrudeFeature EF1 = new ExtrudeFeature();
             Detail3d = EF1.Cast<Mc3dSolid>();
@@ -42,16 +40,13 @@ namespace Detail1
                 EF1.ProfileID = profile1.ID;
                 EF1.Distance = 80;
                 EF1.Angle = 0;
-                EF1.Operation = PartFeatureOperation.Join;
+                EF1.PartOperation = PartFeatureOperation.Join;
                 EF1.Direction = FeatureExtentDirection.Positive;
                 McObjectManager.UpdateAll();
             }
 
-
             PlanarSketch sketchDetail2 = Detail3d.AddPlanarSketch();
-
             ExtrudeFeature EF2 = new ExtrudeFeature();
-
             DbPolyline rect2 = new DbPolyline() { Polyline = new Polyline3d(new List<Point3d>() { new Point3d(50, 0, 0), new Point3d(250, 0, 0), new Point3d(250, 50, 0), new Point3d(50, 50, 0), new Point3d(50, 0, 0) }) };
 
             rect2.DbEntity.AddToCurrentDocument();
@@ -64,22 +59,15 @@ namespace Detail1
                 80,
                 0,
                 FeatureExtentDirection.Positive);
-            EF2.Operation = PartFeatureOperation.Cut;
+            EF2.PartOperation = PartFeatureOperation.Cut;
             McObjectManager.UpdateAll();
-
-
-
 
             PlanarSketch sketchDetail3 = Detail3d.AddPlanarSketch();
 
-
-
             DbPolyline rect3 = new DbPolyline() { Polyline = new Polyline3d(new List<Point3d>() { new Point3d(0, 110, 0), new Point3d(300, 110, 0), new Point3d(300, 180, 0), new Point3d(0, 180, 0), new Point3d(0, 0, 0) }) };
-
 
             rect3.DbEntity.AddToCurrentDocument();
             ExtrudeFeature EF3 = new ExtrudeFeature();
-
 
             sketchDetail3.AddObject(rect3.ID);
             SketchProfile profile3 = sketchDetail3.CreateProfile();
@@ -90,21 +78,13 @@ namespace Detail1
                 280,
                 0,
                 FeatureExtentDirection.Positive);
-            EF3.Operation = PartFeatureOperation.Join;
+            EF3.PartOperation = PartFeatureOperation.Join;
             McObjectManager.UpdateAll();
 
-
-
-
-
             PlanarSketch sketchDetail4 = Detail3d.AddPlanarSketch();
-
             DbPolyline rect4 = new DbPolyline() { Polyline = new Polyline3d(new List<Point3d>() { new Point3d(0, 180, 0), new Point3d(300, 180, 0), new Point3d(300, 480, 0), new Point3d(0, 480, 0), new Point3d(0, 180, 0) }) };
-
-
             rect4.DbEntity.AddToCurrentDocument();
             ExtrudeFeature EF4 = new ExtrudeFeature();
-
 
             sketchDetail4.AddObject(rect4.ID);
             SketchProfile profile4 = sketchDetail4.CreateProfile();
@@ -115,18 +95,15 @@ namespace Detail1
                 280,
                 0,
                 FeatureExtentDirection.Positive);
-            EF4.Operation = PartFeatureOperation.Join;
+            EF4.PartOperation = PartFeatureOperation.Join;
             McObjectManager.UpdateAll();
 
 
             PlanarSketch sketchDetail5 = Detail3d.AddPlanarSketch();
-
             DbPolyline rect5 = new DbPolyline() { Polyline = new Polyline3d(new List<Point3d>() { new Point3d(0, 180, 0), new Point3d(300, 180, 0), new Point3d(300, 480, 0), new Point3d(0, 480, 0), new Point3d(0, 180, 0) }) };
-
 
             rect5.DbEntity.AddToCurrentDocument();
             ExtrudeFeature EF5 = new ExtrudeFeature();
-
 
             sketchDetail5.AddObject(rect5.ID);
             SketchProfile profile5 = sketchDetail5.CreateProfile();
@@ -137,10 +114,8 @@ namespace Detail1
                 200,
                 0,
                 FeatureExtentDirection.Positive);
-            EF5.Operation = PartFeatureOperation.Cut;
+            EF5.PartOperation = PartFeatureOperation.Cut;
             McObjectManager.UpdateAll();
-
-
 
             PlanarSketch sketchDetail6 = Detail3d.AddPlanarSketch();
 
@@ -149,8 +124,6 @@ namespace Detail1
                 Center = new Point3d(150, 330, 0),
                 Radius = 80,
             };
-
-
 
             circle1.DbEntity.AddToCurrentDocument();
             sketchDetail6.AddObject(circle1.ID);
@@ -163,17 +136,15 @@ namespace Detail1
                 280,
                 0,
                 FeatureExtentDirection.Positive);
-            EF6.Operation = PartFeatureOperation.Cut;
+            EF6.PartOperation = PartFeatureOperation.Cut;
             McObjectManager.UpdateAll();
 
             PlanarSketch sketchDetail7 = Detail3d.AddPlanarSketch();
 
             DbPolyline rect6 = new DbPolyline() { Polyline = new Polyline3d(new List<Point3d>() { new Point3d(0, 480, 0), new Point3d(300, 480, 0), new Point3d(300, 550, 0), new Point3d(0, 550, 0), new Point3d(0, 480, 0) }) };
-
-
             rect6.DbEntity.AddToCurrentDocument();
-            ExtrudeFeature EF7 = new ExtrudeFeature();
 
+            ExtrudeFeature EF7 = new ExtrudeFeature();
 
             sketchDetail7.AddObject(rect6.ID);
             SketchProfile profile7 = sketchDetail7.CreateProfile();
@@ -184,18 +155,15 @@ namespace Detail1
                 280,
                 0,
                 FeatureExtentDirection.Positive);
-            EF7.Operation = PartFeatureOperation.Join;
+            EF7.PartOperation = PartFeatureOperation.Join;
             McObjectManager.UpdateAll();
-
 
             PlanarSketch sketchDetail8 = Detail3d.AddPlanarSketch();
 
             DbPolyline rect7 = new DbPolyline() { Polyline = new Polyline3d(new List<Point3d>() { new Point3d(0, 480, 0), new Point3d(300, 480, 0), new Point3d(300, 660, 0), new Point3d(0, 660, 0), new Point3d(0, 480, 0) }) };
 
-
             rect7.DbEntity.AddToCurrentDocument();
             ExtrudeFeature EF8 = new ExtrudeFeature();
-
 
             sketchDetail8.AddObject(rect7.ID);
             SketchProfile profile8 = sketchDetail8.CreateProfile();
@@ -206,17 +174,13 @@ namespace Detail1
                 80,
                 0,
                 FeatureExtentDirection.Positive);
-            EF8.Operation = PartFeatureOperation.Join;
-
-
+            EF8.PartOperation = PartFeatureOperation.Join;
+            
             PlanarSketch sketchDetail9 = Detail3d.AddPlanarSketch();
 
             DbPolyline rect8 = new DbPolyline() { Polyline = new Polyline3d(new List<Point3d>() { new Point3d(50, 610, 0), new Point3d(250, 610, 0), new Point3d(250, 660, 0), new Point3d(50, 660, 0), new Point3d(50, 610, 0) }) };
-
-
             rect8.DbEntity.AddToCurrentDocument();
             ExtrudeFeature EF9 = new ExtrudeFeature();
-
 
             sketchDetail9.AddObject(rect8.ID);
             SketchProfile profile9 = sketchDetail9.CreateProfile();
@@ -227,10 +191,8 @@ namespace Detail1
                 80,
                 0,
                 FeatureExtentDirection.Positive);
-            EF9.Operation = PartFeatureOperation.Cut;
+            EF9.PartOperation = PartFeatureOperation.Cut;
             McObjectManager.UpdateAll();
-
-
         }
     }
 }
