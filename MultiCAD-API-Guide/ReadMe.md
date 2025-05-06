@@ -77,6 +77,7 @@ public void CreateLineByTwoPoints()
     line.DbEntity.AddToCurrentDocument();
 }
 ```
+![Результат создания отрезка по двум точкам](images/MCreateLineByTwoPoints.png)
 
 - `[CommandMethod("MCreateLineByTwoPoints", CommandFlags.NoCheck | CommandFlags.NoPrefix)]` — регистрирует метод как команду MultiCAD с именем MCreateLineByTwoPoints. Пользователь может вызвать её из командной строки программы.
 - `Point3d startPoint = new Point3d(0, 0, 0)` — создается объект начальной точки в координатах (0, 0, 0).
@@ -124,6 +125,7 @@ public void CreateLineByPointAndAngle()
     line.DbEntity.AddToCurrentDocument();
 }
 ```
+![Результат создания отрезка по углу](images/MCreateLineByPointAndAngle.png)
 
 - `double length = 100` — задается длина отрезка.
 - `double angle = Math.PI / 4` — угол в радианах (45 градусов).
@@ -167,6 +169,7 @@ public void CreateLineByLengthAndDirection()
     line.DbEntity.AddToCurrentDocument();
 }
 ```
+![Результат создания отрезка по направлению](images/MCreateLineByLengthAndDirection.png)
 
 - `Vector3d direction = new Vector3d(1, 1, 0)` — создание вектора направления, который указывает на диагональ по оси X и Y.
 - `direction.GetNormal()` — нормализует вектор, преобразуя его в единичный вектор.
@@ -221,6 +224,7 @@ public void CreateArcByThreePoints()
     arc.DbEntity.AddToCurrentDocument();
 }
 ```
+![Дуга по трем точкам](images/Arc3pts.png)
 
 2. По центру, радиусу и нормали:
 
@@ -252,6 +256,7 @@ public void CreateArcByCenterRadiusNormal()
     arc.DbEntity.AddToCurrentDocument();
 }
 ```
+![Дуга по центру, радиусу и нормали](images/ArcCenterVectorNorm.png)
 
 Нормаль задается с помощью Vectord3d и в зависимости от значений меняет ориентацию дуги:
 
@@ -315,6 +320,7 @@ public void CreateArcWithRefVector()
     arc.DbEntity.AddToCurrentDocument();
 }
 ```
+![Дуга по центру, радиусу и нормали](images/ArcCenterVectorNorm.png)
 
 Начальный и конечный углы дуги задаются в радианах.
 
@@ -347,6 +353,7 @@ public void CreateArcWithoutArcParam()
     arc.DbEntity.AddToCurrentDocument();
 }
 ```
+![Дуга без параметра Arc](images/ArcWithoutCircArc3d.png)
 
 В зависимости от заданных данных, некоторые параметры можно опускать, и они будут вычисляться на основе других:
 
@@ -401,6 +408,8 @@ arc.DbEntity.LineScale = 2.0;
 Plane plane = arc.Arc.GetPlane();
 ```
 
+![Изменение цвета дуги](images/ArcColor.png)
+
 ### Создание окружности
 
 Создавать окружность мы можем с помощью класса DBCircle. Рассмотрим параметры этого класса:
@@ -439,6 +448,7 @@ public void CreateCircle()
     circle.DbEntity.AddToCurrentDocument();
 }
 ```
+![Создание окружности](images/Circle.png)
 
 Основные методы объекта DbCircle:
 
@@ -462,6 +472,7 @@ circle.DbEntity.LineScale = 2.0;
 circle.DbEntity.LineType = "DASHED";
 circle.DbEntity.LineWeight = McLineWeight.LineWeight050;
 ```
+[Окружность с измененными параметрами](images/CircleColor.png)
 
 ### Создание эскиза в смещенной плоскости
 
@@ -498,6 +509,7 @@ public void CreateOffsetSketch()
     McObjectManager.Add2Document(sketch);
 }
 ```
+![Эскиз в смещенной плоскости](images/SketchOffsetPlane.png)
 
 ## Базовые команды 3D модуля
 
@@ -569,6 +581,7 @@ public void ExtrudeExample()
     McObjectManager.UpdateAll();
 }
 ```
+![Результат выдавливания](images/Extrude.png)
 
 **Типы операций экструзии**:
 - **Join**: Объединяет новую геометрию с существующими объектами
@@ -707,6 +720,7 @@ public void RevolveExample()
     McObjectManager.UpdateAll();
 }
 ```
+![Выдавливание вращением](images/Revolve.png)
 
 ### Операция выдавливания по траектории
 
@@ -842,6 +856,7 @@ public void SweepExample()
     McObjectManager.UpdateAll();
 }
 ```
+ ![Выдавливание по траектории](images/ExtrudeAlongPath.png)
 
 ### Выдавливание по сечениям
 
@@ -923,6 +938,7 @@ public void LoftExample()
     McObjectManager.UpdateAll();
 }
 ```
+ ![Результат выдавливания по сечениям](images/Loft.png)
 
 ### Создание скруглений и фасок
 
@@ -983,6 +999,7 @@ public void FilletSample()
     McObjectManager.UpdateAll();
 }
 ```
+![Результат создания скруглений](images/Fillet.png)
 
 Создание фасок:
 
@@ -1042,6 +1059,8 @@ public void ChamferSample()
 }
 ```
 
+ ![Результат создания фасок](images/Chamfer.png)
+
 Параметры команды AddChamferFeature:
 
 - **IEnumerable<McObjectId> edgesIds** — ребра, на которых нужно делать фаску.
@@ -1059,6 +1078,8 @@ public void ChamferSample()
 ## Создание детали с использованием MultiCAD API
 
 Создадим деталь по чертежу:
+
+![Чертеж детали](images/TestDetailSketch.png)
 
 ```csharp
 [CommandMethod("CreateDetailExample", CommandFlags.NoCheck | CommandFlags.NoPrefix)]
@@ -1243,6 +1264,7 @@ public void CreateDetailExample()
     McObjectManager.UpdateAll();
 }
 ```
+![Итоговый результат](images/TestDetail.png)
 
 Этот пример показывает создание полной детали, состоящей из:
 1. Прямоугольного основания
