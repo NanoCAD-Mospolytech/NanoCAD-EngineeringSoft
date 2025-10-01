@@ -1,0 +1,15 @@
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\net6.0-windows\MySample1.csproj.AssemblyReference.cache
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\net6.0-windows\MySample1.Form1.resources
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\net6.0-windows\MySample1.csproj.GenerateResource.cache
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\net6.0-windows\MySample1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\net6.0-windows\MySample1.AssemblyInfoInputs.cache
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\net6.0-windows\MySample1.AssemblyInfo.cs
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\net6.0-windows\MySample1.csproj.CoreCompileInputs.cache
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\net6.0-windows\MySample1.sourcelink.json
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\bin\Debug\net6.0-windows\MySample1.deps.json
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\bin\Debug\net6.0-windows\MySample1.dll
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\bin\Debug\net6.0-windows\MySample1.pdb
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\net6.0-windows\MySample1.dll
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\net6.0-windows\refint\MySample1.dll
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\net6.0-windows\MySample1.pdb
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\net6.0-windows\ref\MySample1.dll

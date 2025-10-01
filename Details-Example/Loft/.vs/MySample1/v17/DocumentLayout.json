@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vitai\\Desktop\\refactoring\\NanoCAD-EngineeringSoft\\Details-Example\\Loft\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CCEAB58-0BB6-45B8-8522-9F221554586D}|MySample1.csproj|c:\\users\\vitai\\desktop\\refactoring\\nanocad-engineeringsoft\\details-example\\loft\\sample3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CCEAB58-0BB6-45B8-8522-9F221554586D}|MySample1.csproj|solutionrelative:sample3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CCEAB58-0BB6-45B8-8522-9F221554586D}|MySample1.csproj|c:\\users\\vitai\\desktop\\refactoring\\nanocad-engineeringsoft\\details-example\\loft\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CCEAB58-0BB6-45B8-8522-9F221554586D}|MySample1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CCEAB58-0BB6-45B8-8522-9F221554586D}|MySample1.csproj|c:\\users\\vitai\\desktop\\refactoring\\nanocad-engineeringsoft\\details-example\\loft\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CCEAB58-0BB6-45B8-8522-9F221554586D}|MySample1.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sample3d.cs",
+              "DocumentMoniker": "C:\\Users\\vitai\\Desktop\\refactoring\\NanoCAD-EngineeringSoft\\Details-Example\\Loft\\Sample3d.cs",
+              "RelativeDocumentMoniker": "Sample3d.cs",
+              "ToolTip": "C:\\Users\\vitai\\Desktop\\refactoring\\NanoCAD-EngineeringSoft\\Details-Example\\Loft\\Sample3d.cs",
+              "RelativeToolTip": "Sample3d.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwDUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T15:09:17.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\vitai\\Desktop\\refactoring\\NanoCAD-EngineeringSoft\\Details-Example\\Loft\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "C:\\Users\\vitai\\Desktop\\refactoring\\NanoCAD-EngineeringSoft\\Details-Example\\Loft\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T07:20:25.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\vitai\\Desktop\\refactoring\\NanoCAD-EngineeringSoft\\Details-Example\\Loft\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\vitai\\Desktop\\refactoring\\NanoCAD-EngineeringSoft\\Details-Example\\Loft\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T07:20:22.513Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

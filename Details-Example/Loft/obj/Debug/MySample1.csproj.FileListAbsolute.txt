@@ -1,0 +1,27 @@
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\Мои примеры\MySample1\obj\Debug\Interop.nanoCAD.dll
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\Мои примеры\MySample1\obj\Debug\Interop.OdaX.dll
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\Мои примеры\MySample1\obj\Debug\MySample1.csproj.ResolveComReference.cache
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\Мои примеры\MySample1\obj\Debug\MySample1.csproj.CoreCompileInputs.cache
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\Мои примеры\MySample1\obj\Debug\MySample1.dll
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\Мои примеры\MySample1\obj\Debug\MySample1.pdb
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\Мои примеры\MySample1\bin\Debug\MySample1.dll
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\Мои примеры\MySample1\bin\Debug\MySample1.pdb
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\MySample1\bin\Debug\MySample1.dll
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\MySample1\bin\Debug\MySample1.pdb
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\MySample1\obj\Debug\Interop.nanoCAD.dll
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\MySample1\obj\Debug\Interop.OdaX.dll
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\MySample1\obj\Debug\MySample1.csproj.ResolveComReference.cache
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\MySample1\obj\Debug\MySample1.csproj.CoreCompileInputs.cache
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\MySample1\obj\Debug\MySample1.dll
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\MySample1\obj\Debug\MySample1.pdb
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\MySample1\obj\Debug\MySample1.csproj.AssemblyReference.cache
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\MySample1\obj\Debug\MySample1.Form1.resources
+C:\Users\Фомин Юрий\Desktop\Московский Политех\Нанокад\MySample1\obj\Debug\MySample1.csproj.GenerateResource.cache
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\MySample1.csproj.AssemblyReference.cache
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\Interop.OdaX.dll
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\MySample1.csproj.ResolveComReference.cache
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\MySample1.Form1.resources
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\MySample1.csproj.GenerateResource.cache
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\MySample1.csproj.CoreCompileInputs.cache
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\MySample1.dll
+C:\Users\vitai\Desktop\refactoring\NanoCAD-EngineeringSoft\Details-Example\Loft\obj\Debug\MySample1.pdb
