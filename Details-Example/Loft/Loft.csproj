@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="nanoCAD">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>25</VersionMajor>
+      <Guid>6d7a780f-9c4c-4abb-ad65-602564f354c0</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="OdaX">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>8</VersionMinor>
+      <VersionMajor>24</VersionMajor>
+      <Guid>0dfa2554-8a2b-44d0-be8f-85eeb803aee9</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="imapimgd">
+      <HintPath>..\..\..\..\..\Program Files\Nanosoft\nanoCAD x64 25.0\SDK\include-x64\imapimgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapiBaseTypes">
+      <HintPath>..\..\..\..\..\Program Files\Nanosoft\nanoCAD x64 25.0\SDK\include-x64\mapibasetypes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mapimgd">
+      <HintPath>..\..\..\..\..\Program Files\Nanosoft\nanoCAD x64 25.0\SDK\include-x64\mapimgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
